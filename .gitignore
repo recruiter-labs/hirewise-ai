@@ -1,0 +1,91 @@
+# -----------------------------
+# IDE / OS
+# -----------------------------
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Node / Next.js
+# -----------------------------
+node_modules/
+.next/
+out/
+dist/
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# -----------------------------
+# Java / Spring Boot
+# -----------------------------
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+build/
+target/
+out/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.settings/
+bin/
+tmp/
+*.db
+
+# -----------------------------
+# Gradle
+# -----------------------------
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# -----------------------------
+# Python / AI Services
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+.venv/
+*.egg-info/
+*.pytest_cache/
+*.ipynb_checkpoints/
+
+# -----------------------------
+# Docker
+# -----------------------------
+*.log
+docker-compose.override.yml
+*.env
+
+# -----------------------------
+# Misc
+# -----------------------------
+*.swp
+*.swo
+*.bak
+*.tmp
+*.old
+*.orig
+*.rej
+
+# -----------------------------
+# Shared / Libraries
+# -----------------------------
+shared-libs/build/
+shared-libs/out/
